@@ -6,10 +6,53 @@
 //  Copyright © 2018 Aj Gill. All rights reserved.
 //
 
+#include <cmath>
+#include <cstdio>
+#include <vector>
 #include <iostream>
+#include <set>
+#include <algorithm>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <set>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    set<int> s;
+    int queryCount,queryType,queryInt;
+    cin >> queryCount;
+    for(int i=0;i<queryCount;i++){
+        cin >> queryType;
+        cin >> queryInt;
+        
+        if(queryType==1){
+            s.insert(queryInt);
+        }
+        else if(queryType==2){
+            s.erase(queryInt);
+        }
+        else if(queryType==3){
+            set <int>::iterator it = s.find(queryInt);
+            if (it ==s.end()){
+                cout << "No\n";
+            }
+            else{
+                cout << "Yes\n";
+            }
+        }
+    }
     return 0;
 }
+
+
+
+
+
+

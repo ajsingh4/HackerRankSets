@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		216D30CD212A38B000E050F2 /* HackerRankSets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankSets; sourceTree = BUILT_PRODUCTS_DIR; };
 		216D30D0212A38B000E050F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		216D30D7212A3B2700E050F2 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				216D30D0212A38B000E050F2 /* main.cpp */,
+				216D30D7212A3B2700E050F2 /* ReadMe.md */,
 			);
 			path = HackerRankSets;
 			sourceTree = "<group>";
