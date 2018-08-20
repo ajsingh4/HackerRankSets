@@ -1,8 +1,3 @@
-{\rtf1\ansi\ansicpg1252\cocoartf949
-{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww9000\viewh8400\viewkind0
-}
 
 Problem
 Sets are a part of the C++ STL. Sets are containers that store unique elements following a specific order.
